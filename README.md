@@ -15,7 +15,7 @@ This script can be run online or locally (the latter is way faster), provided yo
 
 ## To run locally (you'll need to install ruby, but it'll be a thousand times faster):
   * For windows: https://rubyinstaller.org/
-  * Check that ruby is installed correctly. Open a terminal and type `ruby -v`. On enter, it should display the version of ruby you installed. Something like `ruby 3.3.1`
+  * Check that ruby is installed correctly. Open a terminal and type `ruby -v`. On enter, it should display the version of ruby you installed. Something along the lines of `ruby 3.2.4 (2024-04-23 revision af471c0e01) [x64-mingw-ucrt]`
   * Navigate to the folder in which you've got this file using cd. like `cd downloads` or `cd documents`, etc. 
   * Type in `ruby crutch_word_finder.rb` and enter. You're done! Collect your results from the terminal.
 
