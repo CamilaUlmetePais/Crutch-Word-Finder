@@ -2,14 +2,16 @@ excluded_words = ["about","above","after","again","against","ago","all","am","an
 
 text = "Lorem ipsum dolor sit amet."
 
-text = text.gsub(/[^a-zA-ZÀ-ÖØ-öø-ÿ]/, ' ') #remove all special characters
-text = text.delete(",")
-text = text.gsub(/\b[a-zA-Z]\b/, ' ') #remove standalone letters
-words = text.downcase.split.each_with_object(Hash.new(0)) do |word, count| 
+# ----------------------------------------------------------------------------------------------------
+# DON'T MAKE ANY CHANGES BELOW THIS LINE
+# ----------------------------------------------------------------------------------------------------
+
+clean_text = text.gsub(/[^a-zA-ZÀ-ÖØ-öø-ÿ]/, ' ').delete(",").gsub(/\b[a-zA-Z]\b/, ' ') #removes all special characters, commas, and standalone letters, respectively.
+
+words = clean_text.downcase.split.each_with_object(Hash.new(0)) do |word, count| 
   count[word] += 1 unless excluded_words.include? word
 end
+
 sorted_words = words.sort_by {|k, v| -v}
+
 p sorted_words
-
-
-
