@@ -20,6 +20,6 @@ This script can be run online or locally (the latter is way faster), provided yo
   * Type in ruby crutch_word_finder.rb and enter. You're done! Collect your results from the terminal.
 
 ## Troubleshooting:
-  If the script crashes or raises an error, first check that your formatting is right. Check that:
-    * excluded_words doesn't have any missing quotes, extra or missing commas, and that the opening and closing square brackets are still in place.
-    * text is wrapped in quotes, and there aren't any other quotes aside from those.
+If the script crashes or raises an error, first check that your formatting is right. Check that:
+  * excluded_words doesn't have any missing quotes, extra or missing commas, and that the opening and closing square brackets are still in place.
+  * text is wrapped in quotes, and there aren't any other quotes aside from those.
