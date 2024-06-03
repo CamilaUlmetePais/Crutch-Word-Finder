@@ -12,6 +12,6 @@ words = clean_text.downcase.split.each_with_object(Hash.new(0)) do |word, count|
   count[word] += 1 unless excluded_words.include? word
 end
 
-sorted_words = words.sort_by {|k, v| -v}
+crutch_words = words.sort_by {|k, v| -v}.delete_if{|key,value| value <= 3}
 
-p sorted_words
+puts(crutch_words.map{|k,v| k.to_s + ": " + v.to_s})
