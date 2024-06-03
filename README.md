@@ -5,6 +5,7 @@ This script can be run online or locally (the latter is way faster), provided yo
 
 ## Instructions:
   * Put your draft in a word processor (Word, GDocs, even Windows Notepad), and do a search and replace. Replace all quotes (") with a space. Don't skip this step! Ruby uses quotes to determine the beginning and end of the text, so having any quotes inside your text will make the script crash quite spectacularly.
+    * Make sure you're replacing all three types of quotes: normal quotes ("), opening smart quotes (“), and closing smart quotes (”).
   * Download the file `crutch_word_finder.rb` to your computer and open it with an app like notepad, notepad++, sublime text, etc.
   * Paste the quote-less text inside the quotes to the right of `text`, replacing the Lorem Ipsum placeholder text.
   * Add any words you want excluded from the results to `excluded_words` following exactly the format of the words already there: each word wrapped in quotes, separated with a comma (outside of the quotes). No comma after the last word.
