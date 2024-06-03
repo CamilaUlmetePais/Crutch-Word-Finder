@@ -2,10 +2,6 @@ excluded_words = ["about","above","after","again","against","ago","all","am","an
 
 text = "Lorem ipsum dolor sit amet."
 
-# ----------------------------------------------------------------------------------------------------
-# DON'T MAKE ANY CHANGES BELOW THIS LINE
-# ----------------------------------------------------------------------------------------------------
-
 clean_text = text.gsub(/[^a-zA-ZÀ-ÖØ-öø-ÿ]/, ' ').delete(",").gsub(/\b[a-zA-Z]\b/, ' ') #removes all special characters, commas, and standalone letters, respectively.
 
 words = clean_text.downcase.split.each_with_object(Hash.new(0)) do |word, count| 
