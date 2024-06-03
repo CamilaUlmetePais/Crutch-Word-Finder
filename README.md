@@ -9,7 +9,8 @@ This script can be run online or locally (the latter is way faster), provided yo
   * Download the file `crutch_word_finder.rb` to your computer and open it with an app like notepad, notepad++, sublime text, etc.
   * Paste the quote-less text inside the quotes to the right of `text`, replacing the Lorem Ipsum placeholder text.
   * Add any words you want excluded from the results to `excluded_words` following exactly the format of the words already there: each word wrapped in quotes, separated with a comma (outside of the quotes). No comma after the last word.
-    * These could be names of characters or places, or you could even build your own set for a different language. I'm excluding the most common words in the english language so that they don't pollute the results. 
+    * These could be names of characters or places, or you could even build your own set for a different language. I'm excluding the most common words in the english language so that they don't pollute the results.
+  * By default, this script will show you all the words you've used more than 3 times. If you want to change that (let's say, to only see words you've used more than 5 times), simply change the number in line 15. If you replace the 3 for a 5, the script will only show you words you've used more than 5 times.
   * Save the file. This will be the ready-to-use script. 
 
 ## To run online (no install required):
