@@ -21,8 +21,8 @@ This script can be run online or locally (the latter is way faster), provided yo
   * For windows: https://rubyinstaller.org/
   * Check that ruby is installed correctly. Open a terminal and type `ruby -v`. On enter, it should display the version of ruby you installed. Something along the lines of `ruby 3.2.4 (2024-04-23 revision af471c0e01) [x64-mingw-ucrt]`
   * Open a terminal / command prompt. 
-  * Navigate to the folder in which you've got the modified `crutch_word_finder.rb` file using cd. like `cd downloads` or `cd documents`, etc.
-    * To go back if you made a mistake, type `cd ..`.
+  * Navigate to the folder in which you've got the modified `crutch_word_finder.rb` file using cd. For example `cd downloads` , `cd documents` , etc.
+    * To go back if you made a mistake, type `cd ..` .
   * Type in `ruby crutch_word_finder.rb` and enter. You're done! Collect your results from the terminal.
 
 ## Troubleshooting:
